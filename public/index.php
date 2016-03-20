@@ -372,13 +372,13 @@
           <div class="header-graphic" style="background-image: url(/images/bicycle.jpg);">
             <h3>Explore</h3>
           </div>
-          <p>If you're going to make good on your commitments to run or bike, Portland is your urban playground with over 400 miles of beautiful bike trails and paths. Or follow through on your resolution spend more time in nature in the <a href="http://www.travelportland.com/article/forest-park/">world's largest urban rainforest</a> (there's your sticks!)</p>
+          <?php include('../copy/explore.php'); ?>
         </div>
         <div class="column">
           <div class="header-graphic" style="background-image: url(/images/coffee-shop.jpg);">
             <h3>Enjoy Some Food</h3>
           </div>
-          <p>Portland's <a href="http://www.foodcartsportland.com/maps/">food carts</a>, <a href="http://www.baileystaproom.com/">microbrews</a>, <a href="http://www.bluestardonuts.com/">pretentiously delicious donuts</a>, and <a href="http://pdx.eater.com/maps/20-great-portland-coffee-shops">local coffee</a> can keep you fueled while you contemplate the best incentive methods for achieving your goals. You can even get a <a href="http://www.pdxmonthly.com/articles/2014/12/5/blue-star-s-new-doughnuts-december-2014">ginger carrot donut</a> as your carrot.</p>
+          <?php include('../copy/food.php'); ?>
         </div>
       </div>
       <div class="center aligned row">
@@ -386,13 +386,13 @@
           <div class="header-graphic" style="background-image: url(/images/benson-bubbler.jpg);">
             <h3>Benson Bubblers</h3>
           </div>
-          <p>Behavior incentives run through Portland's blood - or at least our water. The ubiquitous "Benson Bubbler" public drinking fountains were originally installed in 1912 by Simon Benson, who believed fresh available drinking water would deter loggers from drinking beer.</p>
+          <?php include('../copy/benson-bubblers.php'); ?>
         </div>
         <div class="column">
           <div class="header-graphic" style="background-image: url(/images/berries.jpg);">
             <h3>Summer</h3>
           </div>
-          <p>Summer in Portland might be one of the West Coast's best kept secrets. Days are long and dry with temperatures hovering around a comfortable 65-75 degrees. The sun doesn't set until 9PM most days, and there's no better time for hikes at nearby Mt. Hood or Multnomah Falls.</p>
+          <?php include('../copy/summer.php'); ?>
         </div>
       </div>
     </div>
@@ -453,6 +453,13 @@
 
 <script>
 var mymap = L.map('map').setView([45.519666, -122.671118], 13);
+var tileProtocol = (window.location.protocol !== 'https:') ? 'http:' : 'https:';
+L.tileLayer(tileProtocol + '//{s}.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+    attributionUrl: 'https://static.arcgis.com/attribution/World_Topo_Map',
+    maxZoom: 18,
+    id: 'your.mapbox.project.id',
+    accessToken: 'your.mapbox.public.access.token'
+}).addTo(mymap);
 
 </script>
 </body>
