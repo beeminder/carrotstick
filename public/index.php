@@ -43,6 +43,13 @@
       height: 280px;
     }
 
+    .signup-form {
+      max-width: 400px;
+      margin-top: 1em;
+    }
+
+
+
     .carrot-orange {
       color: #CC510B;
     }
@@ -224,13 +231,16 @@
     </div>
 
     <div class="ui text container">
+
       <h1 class="ui inverted header">
         Carrot <img src="/images/carrot-stick-logo-512.png"> Stick
       </h1>
+
       <h2>August 6-7, 2016</h2>
       <h2>Portland, Oregon</h2>
+
       <form class="ui form" action="//carrotbystick.us13.list-manage.com/subscribe/post?u=cdbaf12e21728a8482fed7015&amp;id=8c9012b353" method="post">
-        <div class="ui action input">
+        <div class="ui action input signup-form">
           <input type="email" name="EMAIL" placeholder="email">
           <button class="ui button" name="subscribe">Notify Me</button>
         </div>
