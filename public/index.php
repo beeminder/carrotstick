@@ -40,7 +40,7 @@
 
 
     #map {
-      height: 180px;
+      height: 280px;
     }
 
     .carrot-orange {
@@ -250,8 +250,7 @@
 
   <div class="ui vertical stripe segment">
     <div class="ui text container">
-      <h3 class="ui header">Copy copy copy</h3>
-      <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
+      <?php include('../copy/explore.php'); ?>
     </div>
   </div>
 
@@ -265,13 +264,7 @@
             <img class="" src="/images/anomalily.jpg">
           </div>
           <div class="content">
-            <div class="header">Lillian Karabaic</div>
-            <div class="meta">
-              <a href="http://anomalily.net/">anomalily.net</a>
-            </div>
-            <div class="content">
-              Bio
-            </div>
+            <?php include('../copy/bio-anomalily.php'); ?>
           </div>
         </div>
         <div class="card">
@@ -279,13 +272,7 @@
             <img class="" src="/images/aaronpk.jpg">
           </div>
           <div class="content">
-            <div class="header">Aaron Parecki</div>
-            <div class="meta">
-              <a href="https://aaronparecki.com/">aaronparecki.com</a>
-            </div>
-            <div class="content">
-              Bio
-            </div>
+            <?php include('../copy/bio-aaronpk.php'); ?>
           </div>
         </div>
         <div class="card">
@@ -293,13 +280,7 @@
             <img class="" src="/images/bethany.jpg">
           </div>
           <div class="content">
-            <div class="header">Bethany Soule</div>
-            <div class="meta">
-              <a href="http://bethaknee.com/">bethaknee.com</a>
-            </div>
-            <div class="content">
-              Bio
-            </div>
+            <?php include('../copy/bio-bethaknee.php'); ?>
           </div>
         </div>
       </div>
@@ -311,29 +292,7 @@
     <div class="ui text container">
       <h3 class="ui header">Schedule</h3>
 
-      <h4>Friday</h4>
-
-      7:00pm Pre-Party
-
-      <h4>Saturday</h4>
-
-      8:00 Breakfast / Coffee
-      9:00 Speakers
-      12:00 Lunch
-      13:00 Speakers
-      18:00 Break for Dinner
-      20:00 Ignite Talks
-
-      <h4>Sunday</h4>
-
-      8:00 Breakfast / Coffee
-      9:00 Introduction / Scheduling
-      10:00 Unconference Session
-      11:00 Unconference Session
-      12:00 Lunch
-      13:00 Unconference Session
-      14:00 Wrap-up
-
+      <?php include('../copy/schedule.php'); ?>
     </div>
   </div>
 
@@ -452,14 +411,20 @@
 </div>
 
 <script>
-var mymap = L.map('map').setView([45.519666, -122.671118], 13);
+var map = L.map('map', {
+  scrollWheelZoom: false,
+  center: [45.519666, -122.671118],
+  zoom: 13
+});
+
 var tileProtocol = (window.location.protocol !== 'https:') ? 'http:' : 'https:';
-L.tileLayer(tileProtocol + '//{s}.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-    attributionUrl: 'https://static.arcgis.com/attribution/World_Topo_Map',
-    maxZoom: 18,
-    id: 'your.mapbox.project.id',
-    accessToken: 'your.mapbox.public.access.token'
-}).addTo(mymap);
+var layer = L.tileLayer(tileProtocol+'//{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+});
+map.addLayer(layer);
+
+var marker = L.marker([45.512058, -122.683392]).addTo(map);
+marker.bindPopup("<b>Portland State University</b><br>1825 SW Broadway").openPopup();
 
 </script>
 </body>
