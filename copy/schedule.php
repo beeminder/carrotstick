@@ -1,10 +1,15 @@
-<h4>Friday</h4>
+<p>
+<i class="calendar icon"></i> August 6-7, 2016<br>
+<i class="marker icon"></i> Portland State University, Portland, Oregon
+</p>
+
+<h4>Friday, August 5</h4>
 
 <ul>
   <li>7:00pm Pre-Party</li>
 </ul>
 
-<h4>Saturday</h4>
+<h4>Saturday, August 6</h4>
 
 <ul>
   <li>8:00 Breakfast / Coffee</li>
@@ -15,7 +20,7 @@
   <li>20:00 Ignite Talks</li>
 </ul>
 
-<h4>Sunday</h4>
+<h4>Sunday, August 7</h4>
 
 <ul>
   <li>8:00 Breakfast / Coffee</li>

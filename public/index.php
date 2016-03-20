@@ -96,6 +96,9 @@
     .ui.vertical.stripe {
       padding: 8em 0em;
     }
+    .ui.vertical.stripe.nopadding {
+      padding: 0;
+    }
     .ui.vertical.stripe h3 {
       font-size: 2em;
     }
@@ -190,11 +193,7 @@
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
   <div class="ui container">
-    <a class="active item" href="#about">About</a>
-    <a class="item" href="#speakers">Speakers</a>
-    <a class="item" href="#where">Where</a>
-    <a class="item" href="#when">When</a>
-    <a class="item" href="#sponsors">Sponsors</a>
+    <?php include('../copy/nav.php'); ?>
 <!--     
     <div class="right menu">
       <div class="item">
@@ -207,11 +206,7 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-  <a class="active item" href="#about">About</a>
-  <a class="item" href="#speakers">Speakers</a>
-  <a class="item" href="#where">Where</a>
-  <a class="item" href="#when">When</a>
-  <a class="item" href="#sponsors">Sponsors</a>
+  <?php include('../copy/nav.php'); ?>
 </div>
 
 
@@ -224,11 +219,7 @@
         <a class="toc item">
           <i class="sidebar icon"></i>
         </a>
-        <a class="active item" href="#about">About</a>
-        <a class="item" href="#speakers">Speakers</a>
-        <a class="item" href="#where">Where</a>
-        <a class="item" href="#when">When</a>
-        <a class="item" href="#sponsors">Sponsors</a>
+        <?php include('../copy/nav.php'); ?>
       </div>
     </div>
 
@@ -238,23 +229,27 @@
       </h1>
       <h2>August 6-7, 2016</h2>
       <h2>Portland, Oregon</h2>
-      <form class="ui form">
+      <form class="ui form" action="//carrotbystick.us13.list-manage.com/subscribe/post?u=cdbaf12e21728a8482fed7015&amp;id=8c9012b353" method="post">
         <div class="ui action input">
-          <input type="text" placeholder="email">
-          <button class="ui button">Notify Me</button>
+          <input type="email" name="EMAIL" placeholder="email">
+          <button class="ui button" name="subscribe">Notify Me</button>
         </div>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdbaf12e21728a8482fed7015_8c9012b353" tabindex="-1" value=""></div>
       </form>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
     </div>
 
   </div>
 
-  <div class="ui vertical stripe segment">
+  <div class="ui vertical stripe segment" id="about">
     <div class="ui text container">
-      <?php include('../copy/explore.php'); ?>
+      <?php include('../copy/main-description.php'); ?>
     </div>
   </div>
 
-  <div class="ui vertical stripe segment">
+  <div class="ui vertical stripe segment" id="hosts">
     <div class="ui text container">
       <h3 class="ui header">Hosts</h3>
 
@@ -288,10 +283,9 @@
     </div>
   </div>
 
-  <div class="ui vertical stripe segment">
+  <div class="ui vertical stripe segment" id="when">
     <div class="ui text container">
       <h3 class="ui header">Schedule</h3>
-
       <?php include('../copy/schedule.php'); ?>
     </div>
   </div>
@@ -311,14 +305,12 @@
   </div>
 
 
-  <div class="ui vertical stripe segment" style="border-bottom: 0;">
-    Portland State University
-
+  <div class="ui vertical stripe segment nopadding" style="border-bottom: 0;" id="where">
     <div id="map"></div>
   </div>
 
 
-  <div class="ui vertical segment" style="border-bottom: 0; background: #F5E9CE;">
+  <div class="ui vertical segment" style="border-bottom: 0; background: #F5E9CE;" id="portland">
     <h4 class="ui horizontal header divider">
       Why Portland?
     </h4>
@@ -358,7 +350,7 @@
   </div>
 
 
-  <div class="ui vertical stripe segment">
+  <div class="ui vertical stripe segment" id="sponsors">
     <div class="ui text container">
       <h3 class="ui header">Sponsors</h3>
 
