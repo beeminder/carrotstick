@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <!-- Site Properties -->
-  <title>Carrot by Stick Conference</title>
+  <title>Carrot/Stick Conference - Portland, Oregon</title>
   <link rel="stylesheet" type="text/css" href="/semantic/semantic.min.css">
 
   <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
