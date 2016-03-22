@@ -1,0 +1,211 @@
+.ui.inverted.segment, .ui.primary.inverted.segment {
+  background-color: #EEAD3D;
+}
+.ui.secondary.inverted.pointing.menu {
+  border-color: rgba(255,255,255,.1);
+}
+
+
+.header-graphic {
+  font-size: 3rem;
+  color: white;
+  text-align: left;
+  background-size: cover; 
+  color: white; 
+  padding-top: 4em;
+  margin-bottom: 12px;
+}
+.ui.vertical.stripe .header-graphic h3 {
+  padding-left: 6px;
+  font-size: 5vh;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+}
+
+#portland-section h3 {
+  color: #673718;
+}
+
+
+#social-media-section {
+  background: #CC510B;
+}
+#social-media-section a {
+  color: white;
+}
+
+#portland-section, #portland {
+  background: #EEAD3D;
+}
+
+
+
+#portland-section .ui.centered.grid {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media (max-width: 990px) {
+  #portland-section .ui.centered.grid {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ui.stackable.cards>.card {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+#map {
+  height: 320px;
+}
+
+.signup-form {
+  max-width: 400px;
+  margin-top: 1em;
+}
+
+.popup {
+  border-bottom: 1px #ccc dashed;
+  cursor: pointer;
+}
+
+
+.inverted a {
+  color: white;
+  text-decoration: underline;
+}
+.inverted a:hover {
+  color: ;
+}
+
+#portland-section a {
+  color: #673718;
+}
+#portland-section a:hover {
+  color: #8c4d24;
+  border-bottom: 1px #8c4d24 dashed;
+}
+
+
+.carrot-orange {
+  color: #CC510B;
+}
+.carrot-brown, .ui.header {
+  color: #673718;
+}
+.carrot-green {
+  color: #5E6524;
+}
+.carrot-yellow {
+  color: #EEAD3D;
+}
+.carrot-white {
+  color: #F5E9CE;
+}
+
+.ui.button.subscribe-button {
+  background-color: #CC510B;
+  color: white;
+}
+
+
+.social-media-icons a {
+  color: #CC510B;
+}
+.social-media-icons a:hover {
+  color: #e07131;
+}
+
+
+.hidden.menu {
+  display: none;
+}
+
+.masthead.segment {
+  min-height: 700px;
+  padding: 1em 0em;
+}
+.masthead .logo.item img {
+  margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+  margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+  margin-top: 3em;
+  margin-bottom: 0em;
+  font-size: 4em;
+  font-weight: normal;
+}
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.ui.vertical.stripe {
+  padding: 8em 0em;
+}
+.ui.vertical.stripe.nopadding {
+  padding: 0;
+}
+.ui.vertical.stripe h3 {
+  font-size: 2em;
+}
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+  margin-top: 3em;
+}
+.ui.vertical.stripe .floated.image {
+  clear: both;
+}
+.ui.vertical.stripe p {
+  font-size: 1.33em;
+}
+.ui.vertical.stripe .horizontal.divider {
+  margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+  padding: 0em;
+}
+.quote.stripe.segment .grid .column {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.footer.segment {
+  padding: 5em 0em;
+}
+
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .ui.fixed.menu {
+    display: none !important;
+  }
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .menu {
+    display: none;
+  }
+  .secondary.pointing.menu .toc.item {
+    display: block;
+  }
+  .masthead.segment {
+    min-height: 350px;
+  }
+  .masthead h1.ui.header {
+    font-size: 2em;
+    margin-top: 1.5em;
+  }
+  .masthead h2 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
+}
+
