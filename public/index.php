@@ -39,6 +39,29 @@
     }
 
 
+    .about-portland.ui.vertical.segment {
+      background: #F5E9CE;
+    }
+    .about-portland .ui.centered.grid {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    @media (max-width: 990px) {
+      .about-portland .ui.centered.grid {
+        max-width: 768px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .ui.stackable.cards>.card {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+
+
     #map {
       height: 280px;
     }
@@ -132,8 +155,8 @@
       padding: 0em;
     }
     .quote.stripe.segment .grid .column {
-      padding-top: 5em;
-      padding-bottom: 5em;
+      padding-top: 3em;
+      padding-bottom: 3em;
     }
 
     .footer.segment {
@@ -331,16 +354,16 @@
     </h4>
   </div>
 
-  <div class="ui vertical stripe quote segment" style="background: #F5E9CE;">
-    <div class="ui equal width stackable internally celled grid">
+  <div class="about-portland ui vertical stripe quote segment">
+    <div class="ui centered grid">
       <div class="center aligned row">
-        <div class="column">
+        <div class="sixteen wide tablet eight wide computer column">
           <div class="header-graphic" style="background-image: url(/images/bicycle.jpg);">
             <h3>Explore</h3>
           </div>
           <?php include('../copy/explore.php'); ?>
         </div>
-        <div class="column">
+        <div class="sixteen wide tablet eight wide computer column">
           <div class="header-graphic" style="background-image: url(/images/coffee-shop.jpg);">
             <h3>Enjoy Some Food</h3>
           </div>
@@ -348,13 +371,13 @@
         </div>
       </div>
       <div class="center aligned row">
-        <div class="column">
+        <div class="sixteen wide tablet eight wide computer column">
           <div class="header-graphic" style="background-image: url(/images/benson-bubbler.jpg);">
             <h3>Benson Bubblers</h3>
           </div>
           <?php include('../copy/benson-bubblers.php'); ?>
         </div>
-        <div class="column">
+        <div class="sixteen wide tablet eight wide computer column">
           <div class="header-graphic" style="background-image: url(/images/berries.jpg);">
             <h3>Summer</h3>
           </div>
