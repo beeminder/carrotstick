@@ -10,6 +10,7 @@
   <!-- Site Properties -->
   <title>Carrot/Stick Conference - Portland, Oregon</title>
   <link rel="stylesheet" type="text/css" href="/semantic/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/icomoon/style.css">
 
   <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
 
@@ -92,6 +93,11 @@
     }
     .carrot-white {
       color: #F5E9CE;
+    }
+
+    .ui.button.subscribe-button {
+      background-color: #CC510B;
+      color: white;
     }
 
 
@@ -269,8 +275,8 @@
 
       <form class="ui form" action="//carrotbystick.us13.list-manage.com/subscribe/post?u=cdbaf12e21728a8482fed7015&amp;id=8c9012b353" method="post">
         <div class="ui action input signup-form">
-          <input type="email" name="EMAIL" placeholder="email">
-          <button class="ui button" name="subscribe">Notify Me</button>
+          <input type="email" name="EMAIL" placeholder="email" style="border-color: #CC510B;">
+          <button class="ui button subscribe-button" name="subscribe">Notify Me</button>
         </div>
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdbaf12e21728a8482fed7015_8c9012b353" tabindex="-1" value=""></div>
@@ -337,7 +343,7 @@
         <a href="https://twitter.com/carrotstick"><i class="ui twitter icon"></i></a>
         <a href="https://instagram.com/carrotstick"><i class="ui instagram icon"></i></a>
         <a href="https://facebook.com/carrotstick"><i class="ui facebook icon"></i></a>
-        <a href="https://beeminder.com/carrotstick"><i class="ui linkify icon"></i></a>
+        <a href="https://beeminder.com/carrotstick"><i class="icon-beeminder"></i></a>
       </div>
     </div>
   </div>
