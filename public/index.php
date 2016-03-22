@@ -150,9 +150,9 @@
         #carrotstick
       </div>
       <div style="font-size: 4em; text-align: center;" class="social-media-icons">
-        <a href="https://twitter.com/carrotstick"><i class="ui twitter icon"></i></a>
-        <a href="https://instagram.com/carrotstick"><i class="ui instagram icon"></i></a>
-        <a href="https://facebook.com/carrotstick"><i class="ui facebook icon"></i></a>
+        <a href="https://twitter.com/carrotstickclub"><i class="ui twitter icon"></i></a>
+        <a href="https://instagram.com/carrotstickclub"><i class="ui instagram icon"></i></a>
+        <a href="https://www.facebook.com/carrotstickclub/"><i class="ui facebook icon"></i></a>
         <a href="https://beeminder.com/carrotstick"><i class="icon-beeminder"></i></a>
       </div>
     </div>
