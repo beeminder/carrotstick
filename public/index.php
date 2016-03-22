@@ -35,21 +35,35 @@
     }
     .ui.vertical.stripe .header-graphic h3 {
       padding-left: 6px;
-      font-size: 5vw;
+      font-size: 5vh;
       text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
     }
 
-
-    .about-portland.ui.vertical.segment {
-      background: #F5E9CE;
+    #portland-section h3 {
+      color: #673718;
     }
-    .about-portland .ui.centered.grid {
-      max-width: 1200px;
+
+
+    #social-media-section {
+      background: #CC510B;
+    }
+    #social-media-section a {
+      color: white;
+    }
+
+    #portland-section, #portland {
+      background: #EEAD3D;
+    }
+
+
+
+    #portland-section .ui.centered.grid {
+      max-width: 1000px;
       margin: 0 auto;
     }
     @media (max-width: 990px) {
-      .about-portland .ui.centered.grid {
-        max-width: 768px;
+      #portland-section .ui.centered.grid {
+        max-width: 600px;
       }
     }
 
@@ -64,7 +78,7 @@
 
 
     #map {
-      height: 280px;
+      height: 320px;
     }
 
     .signup-form {
@@ -77,6 +91,22 @@
       cursor: pointer;
     }
 
+
+    .inverted a {
+      color: white;
+      text-decoration: underline;
+    }
+    .inverted a:hover {
+      color: ;
+    }
+
+    #portland-section a {
+      color: #673718;
+    }
+    #portland-section a:hover {
+      color: #8c4d24;
+      border-bottom: 1px #8c4d24 dashed;
+    }
 
 
     .carrot-orange {
@@ -334,9 +364,9 @@
     </div>
   </div>
 
-  <div class="ui vertical stripe segment">
+  <div class="ui vertical stripe segment" id="social-media-section">
     <div class="ui text container">
-      <div style="font-size: 2em; text-align: center;" class="carrot-brown">
+      <div style="font-size: 2em; text-align: center;" class="carrot-white">
         #carrotstick
       </div>
       <div style="font-size: 4em; text-align: center;" class="social-media-icons">
@@ -354,39 +384,39 @@
   </div>
 
 
-  <div class="ui vertical segment" style="border-bottom: 0; background: #F5E9CE;" id="portland">
+  <div class="ui vertical segment" style="border-bottom: 0;" id="portland">
     <h4 class="ui horizontal header divider">
       Why Portland?
     </h4>
   </div>
 
-  <div class="about-portland ui vertical stripe quote segment">
+  <div class="ui vertical stripe quote segment" id="portland-section">
     <div class="ui centered grid">
       <div class="center aligned row">
         <div class="sixteen wide tablet eight wide computer column">
           <div class="header-graphic" style="background-image: url(/images/bicycle.jpg);">
-            <h3>Explore</h3>
           </div>
+          <h3>Explore</h3>
           <?php include('../copy/explore.php'); ?>
         </div>
         <div class="sixteen wide tablet eight wide computer column">
           <div class="header-graphic" style="background-image: url(/images/coffee-shop.jpg);">
-            <h3>Enjoy Some Food</h3>
           </div>
+          <h3>Enjoy Some Food</h3>
           <?php include('../copy/food.php'); ?>
         </div>
       </div>
       <div class="center aligned row">
         <div class="sixteen wide tablet eight wide computer column">
           <div class="header-graphic" style="background-image: url(/images/benson-bubbler.jpg);">
-            <h3>Benson Bubblers</h3>
           </div>
+          <h3>Benson Bubblers</h3>
           <?php include('../copy/benson-bubblers.php'); ?>
         </div>
         <div class="sixteen wide tablet eight wide computer column">
           <div class="header-graphic" style="background-image: url(/images/berries.jpg);">
-            <h3>Summer</h3>
           </div>
+          <h3>Summer</h3>
           <?php include('../copy/summer.php'); ?>
         </div>
       </div>
@@ -399,12 +429,12 @@
       <h3 class="ui header">Sponsors</h3>
 
 
+
       <h4 class="ui horizontal header divider">
         How to Sponsor
       </h4>
-
-      <p>Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
-      <a class="ui large button">Get in Touch</a>
+      <?php include('../copy/how-to-sponsor.php'); ?>
+      <a class="ui large button" href="/sponsor/carrot-stick-sponsorship-prospectus.pdf">Download Sponsorship PDF</a>
     </div>
   </div>
 
@@ -418,10 +448,11 @@
 
   <div class="ui inverted vertical footer segment">
     <div class="ui container">
-      Carrot/Stick<br>
-      Beeminder, Inc.<br>
-      330 SE MLK Blvd, 2nd Floor<br>
-      Portland, OR, 97214
+      <p>Carrot/Stick &bull; August 6-7, 2016 &bull; Portland, Oregon</p>
+      <ul>
+        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+        <li><a href="/sponsor/carrot-stick-sponsorship-prospectus.pdf">Sponsorship Prospectus</a> (PDF)</li>
+      </ul>
     </div>
   </div>
 </div>
