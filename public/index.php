@@ -214,7 +214,7 @@
         How to Sponsor
       </h4>
       <?php include('../copy/how-to-sponsor.php'); ?>
-      <a class="ui large button" href="/sponsor/carrot-stick-sponsorship-prospectus.pdf">Download Sponsorship PDF</a>
+      <a class="ui large button" href="/sponsor/Carrot-Stick_Sponsorship_Prospectus.pdf">Download Sponsorship Prospectus (PDF)</a>
     </div>
   </div>
 
