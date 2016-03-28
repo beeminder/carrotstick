@@ -57,10 +57,10 @@
 
       <h3>Respect</h3>
 
-      <p>Carrot/Stick is an intentionally positive community that recognizes and celebrates the creativity and collaboration of independent creators (and independence) and the diversity of people, cultures, and opinions that they bring to Carrot/Stick.</p>
+      <p>A primary goal of Carrot/Stick is to be inclusive to the largest number of participants, with the most varied and diverse backgrounds possible. Carrot/Stick is an intentionally positive community that recognizes and celebrates the creativity and collaboration of the diversity of people, cultures, and opinions that they bring to Carrot/Stick.</p>
       <p>Carrot/Stick spaces are an inclusive environment, based on treating all individuals respectfully, regardless of gender (including transgender status), sexual orientation, age, disability, medical conditions, nationality, ethnicity, religion (or lack thereof), physical appearance, or software preferences.</p>
       <p>We value respectful behavior above individual opinions.</p>
-      <p>Respectful behavior includes:
+      <p>The following behaviors are expected and requested of all community members:
       <ul>
         <li>Be considerate, kind, constructive, and helpful.</li>
         <li>Avoid demeaning, discriminatory, harassing, hateful, or physically threatening behavior, speech, and imagery.</li>
@@ -80,7 +80,7 @@
       <h3>Consequences</h3>
 
       <p>If the organizers determine that an event participant is behaving disrespectfully, the organizers may take any action they deem appropriate, up to and including expulsion and exclusion from the event without warning or refund.</p>
-      <p>As organizers, we will seek to resolve conflicts peacefully and in a manner that is positive for the community. We can't foresee every situation however, and thus if in the organizers' judgment the best thing to do is to ask a disrespectful individual to leave, we will do so. We've never had to do so; please don't be the first.</p>
+      <p>As organizers, we will seek to resolve conflicts peacefully and in a manner that is positive for the community. We can't foresee every situation however, and thus if in the organizers' judgment the best thing to do is to ask a disrespectful individual to leave, we will do so.</p>
 
       <h3>License</h3>
 
