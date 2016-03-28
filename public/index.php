@@ -153,7 +153,7 @@
         <a href="https://twitter.com/carrotstickclub"><i class="ui twitter icon"></i></a>
         <a href="https://instagram.com/carrotstickclub"><i class="ui instagram icon"></i></a>
         <a href="https://www.facebook.com/carrotstickclub/"><i class="ui facebook icon"></i></a>
-        <a href="https://beeminder.com/carrotstick"><i class="icon-beeminder"></i></a>
+        <!-- <a href="https://beeminder.com/carrotstick"><i class="icon-beeminder"></i></a> -->
       </div>
     </div>
   </div>
