@@ -4,10 +4,10 @@
 </div>
 <div class="content">
 Aaron Parecki is least-known for making 
-<a href="http://www.hedgy.club">Hedgy</a>, 
+<a href="http://hedgy.club">Hedgy</a>, 
 a cute robot that keeps track of his beers and annoys him when he drinks too 
 much without eating. 
 He's also the cofounder of 
-<a href="http://www.indiewebcamp.com">IndieWebCamp</a> 
+<a href="http://indiewebcamp.com">IndieWebCamp</a> 
 and a professional technologist. 
 </div>
