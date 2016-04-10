@@ -231,7 +231,7 @@
       <p>Carrot/Stick &bull; August 6-7, 2016 &bull; Portland, Oregon</p>
       <ul>
         <li><a href="/code-of-conduct/">Code of Conduct</a></li>
-        <li><a href="/sponsor/carrot-stick-sponsorship-prospectus.pdf">Sponsorship Prospectus</a> (PDF)</li>
+        <li><a href="/sponsor/Carrot-Stick_Sponsorship_Prospectus.pdf">Sponsorship Prospectus</a> (PDF)</li>
       </ul>
     </div>
   </div>
