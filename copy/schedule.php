@@ -31,4 +31,3 @@
   <li>13:00 Unconference Session</li>
   <li>14:00 Wrap-up</li>
 </ul>
-
