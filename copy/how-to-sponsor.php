@@ -6,6 +6,6 @@ that make behavior change possible in their own life.
 
 <p>
 Review our 
-<a href="/sponsor/carrot-stick-sponsorship-prospectus.pdf">Sponsorship Prospectus</a>, 
+<a href="/sponsor/Carrot-Stick_Sponsorship_Prospectus.pdf">Sponsorship Prospectus</a>, 
 and get in touch with us!
 </p>
