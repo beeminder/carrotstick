@@ -13,7 +13,7 @@ from the ridiculous to sublime &mdash;
 that you use in your own life to reach your goals. 
 You'll hear about trackers and apps, yes, but you'll also hear about 
 <span class="popup" data-title="Akrasia" 
-      data-content="(/əˈkreɪzɪə/) the state of mind in which someone acts against their better judgment through weakness of will" 
+      data-content="(/əˈkrāZH(ē)ə/) the state of mind in which someone acts against their better judgment through weakness of will" 
       data-variation="inverted">Akrasia</span> 
 and playing 
 <a href="http://blog.beeminder.com/pomopoker/">Pomodoro Poker</a>.
