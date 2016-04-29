@@ -32,7 +32,7 @@ You don't have to explain the reasoning why, you just get to start having the
 conversation with other people as excited about this stuff as you are.
 </p>
 
-<h3 class="ui header">Who Should Come</h3>
+<h3 class="ui header">Who should come?</h3>
 
 <p>
 Self-hackers, 
@@ -43,4 +43,13 @@ Anyone who read
 and promptly thought "I'm going to implement this in my own life", 
 Fans of 
 <a href="http://www.amazon.com/The-Motivation-Hacker-Nick-Winter-ebook/dp/B00C8N4FNK">The Motivation Hacker</a>.
+</p>
+
+<h3 class="ui header">What will it cost?</h3>
+
+<p>
+It will be a horribly clever function of how early you sign up. 
+We have a team of economists working around the clock. 
+If there exists a non-zero price at which you'd want to go then add your email to the list and we'll keep you posted!
+(We might even make price partially a function of when you add your email.)
 </p>
